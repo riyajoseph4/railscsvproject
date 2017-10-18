@@ -1,0 +1,4 @@
+<%= form_tag csvs_csv_import_path, multipart: true do %>
+	<%= file_field_tag :fileupload %> 
+    <%= submit_tag :submit %>
+<% end %>
